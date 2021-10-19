@@ -1,0 +1,147 @@
+
+// About start
+
+#About-first{
+    margin: 5rem;
+    .box{
+        text-align: center;
+        i{
+            font-size: 50px;
+            margin-bottom: 2rem;
+        }
+        h6{
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+#About-second{
+    .left-box{
+        img{
+         width: 100%;
+         height: 600px;
+    }
+
+}
+.right-box{
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #8DB1AB;
+    }
+    h2{
+        font-size: 32px;
+        font-weight: 600;
+        margin: 2rem 0;
+        line-height: 1.2;  
+    }
+    p{
+        font-size: 16px;
+        color: #999999;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 19px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .color-1{
+        background-color: #8DB1AB;
+    }
+}
+}
+
+
+#About-third{
+    margin: 8rem 0;
+    background-image: url(../PHOTO/bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10rem 0;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #141B25;
+        opacity: 0.9;
+    }
+    .all{
+        i{
+            color: #fff;
+            font-size: 28px;
+            padding: 2rem;
+            border-radius: 100%;
+            background-color:#31373F;
+        }
+        h2{
+            font-size: 16px;
+            color: #fff;
+        }
+        div{
+            color: #fff;
+            font-size:20px;
+            font-weight: 600;
+        }
+    }
+}
+
+
+
+#About-fourth{
+    .all{
+        padding: 1rem;
+        .box{
+            margin-bottom: 2rem;
+            .bx-img{
+                position: relative;
+                &:hover{
+                    i, &::after{
+                        transition: .4s;
+                        opacity: 0.8;
+                    }
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgb(0, 0, 0);
+                    opacity: 0;
+                    transition: .4s;
+                    z-index: 1;
+                    
+    
+                }
+                i{
+                    
+                    z-index: 11;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    color: #fff;
+                    background-color: #8DB1AB;
+                    padding: 1rem;
+                    font-size: 16px;
+                    border-radius: 100%;
+                    opacity: 0;
+                    transition: .4s;
+                    cursor: zoom-in;
+                }
+                img{
+                   width: 100%;
+                  
+                }
+            }
+        }
+    }
+}

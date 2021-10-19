@@ -1,0 +1,45 @@
+#Blog-main {
+  background-color: #F7F7F7;
+  margin: 10rem 0;
+}
+
+#Blog-main .box {
+  background-color: #fff;
+  position: relative;
+}
+
+#Blog-main .box .top {
+  margin-bottom: 5rem;
+}
+
+#Blog-main .box .top img {
+  width: 100%;
+  height: 170.22px;
+}
+
+#Blog-main .box .bottom {
+  margin: 3rem 0;
+}
+
+#Blog-main .box .bottom h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#Blog-main .box .bottom p {
+  color: #505050;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#Blog-main .box .m-text {
+  position: absolute;
+  left: 3rem;
+  top: 14rem;
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  background-color: #8DB1AB;
+}
+/*# sourceMappingURL=Blog.css.map */

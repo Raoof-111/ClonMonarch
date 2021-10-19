@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+#PRTFL-first {
+  background-image: url(../PHOTO/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 10rem 0;
+}
+
+#PRTFL-first .text {
+  text-align: center;
+}
+
+#PRTFL-first .text a {
+  color: #8DB1AB;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#PRTFL-first .text span {
+  color: #8DB1AB;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+#PRTFL-first .text h3 {
+  color: #fff;
+  font-size: 50px;
+}
+
+#Portfolio-main {
+  padding: 1rem;
+}
+
+#Portfolio-main .box {
+  margin-bottom: 2rem;
+}
+
+#Portfolio-main .box .bx-img {
+  position: relative;
+}
+
+#Portfolio-main .box .bx-img:hover i, #Portfolio-main .box .bx-img:hover::after {
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 0.8;
+}
+
+#Portfolio-main .box .bx-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 1;
+}
+
+#Portfolio-main .box .bx-img i {
+  z-index: 11;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: #8DB1AB;
+  padding: 1rem;
+  font-size: 16px;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+#Portfolio-main .box .bx-img img {
+  width: 100%;
+  height: 220px;
+}
+
+#Footer {
+  padding: 2rem 0;
+}
+
+#Footer .top .box h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#Footer .top .box p {
+  color: #000000e6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#Footer .top .box a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Footer .top .box a:hover {
+  color: #8DB1AB;
+}
+
+#Footer .top .box i {
+  background-color: #F8F9FA;
+  padding: 1.3rem;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#Footer .top .box i:hover {
+  -webkit-transform: translate(-20px);
+          transform: translate(-20px);
+  background-color: #8DB1AB;
+  border-radius: 100%;
+}
+
+#Footer .bottom {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+#Footer .bottom i {
+  color: red;
+}
+/*# sourceMappingURL=Portfolio.css.map */

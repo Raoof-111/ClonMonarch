@@ -1,0 +1,148 @@
+#About-first {
+  margin: 5rem;
+}
+
+#About-first .box {
+  text-align: center;
+}
+
+#About-first .box i {
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+#About-first .box h6 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+#About-second .left-box img {
+  width: 100%;
+  height: 600px;
+}
+
+#About-second .right-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8DB1AB;
+}
+
+#About-second .right-box h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 2rem 0;
+  line-height: 1.2;
+}
+
+#About-second .right-box p {
+  font-size: 16px;
+  color: #999999;
+  font-weight: 500;
+}
+
+#About-second .right-box h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#About-second .right-box .color-1 {
+  background-color: #8DB1AB;
+}
+
+#About-third {
+  margin: 8rem 0;
+  background-image: url(../PHOTO/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
+  position: relative;
+}
+
+#About-third::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #141B25;
+  opacity: 0.9;
+}
+
+#About-third .all i {
+  color: #fff;
+  font-size: 28px;
+  padding: 2rem;
+  border-radius: 100%;
+  background-color: #31373F;
+}
+
+#About-third .all h2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+#About-third .all div {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#About-fourth .all {
+  padding: 1rem;
+}
+
+#About-fourth .all .box {
+  margin-bottom: 2rem;
+}
+
+#About-fourth .all .box .bx-img {
+  position: relative;
+}
+
+#About-fourth .all .box .bx-img:hover i, #About-fourth .all .box .bx-img:hover::after {
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 0.8;
+}
+
+#About-fourth .all .box .bx-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 1;
+}
+
+#About-fourth .all .box .bx-img i {
+  z-index: 11;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: #8DB1AB;
+  padding: 1rem;
+  font-size: 16px;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+#About-fourth .all .box .bx-img img {
+  width: 100%;
+}
+/*# sourceMappingURL=About.css.map */

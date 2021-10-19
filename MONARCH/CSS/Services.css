@@ -1,0 +1,59 @@
+#Services-first {
+  background-image: url(../PHOTO/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 10rem 0;
+}
+
+#Services-first .text {
+  text-align: center;
+}
+
+#Services-first .text a {
+  color: #8DB1AB;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#Services-first .text span {
+  color: #8DB1AB;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+#Services-first .text h3 {
+  color: #fff;
+  font-size: 50px;
+}
+
+#Services-second {
+  padding: 8rem 0;
+}
+
+#Services-second .box {
+  text-align: center;
+}
+
+#Services-second .box i {
+  font-size: 60px;
+  margin: 2rem 0;
+}
+
+#Services-second .box h4 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#Services-second .box p {
+  color: #000000e6;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=Services.css.map */

@@ -1,0 +1,53 @@
+
+// Services Start
+
+#Services-first{
+    background-image: url(../PHOTO/bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    .text{
+        text-align: center;
+        a{
+            color: #8DB1AB;
+            font-size: 22px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        span{
+            color: #8DB1AB;
+            font-size: 22px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 1rem;
+        }
+        h3{
+            color: #fff;
+            font-size: 50px;
+        }
+    }
+}
+
+#Services-second{
+    padding: 8rem 0;
+    .box{
+        text-align: center;
+        i{
+            font-size: 60px;
+            margin: 2rem 0;
+        }
+        h4{
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+        p{
+            color: #000000e6;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+    }
+}
